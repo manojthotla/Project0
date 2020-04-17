@@ -1,0 +1,50 @@
+p{
+    width: 1210px;
+    height: 120px;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: white;
+}
+a{
+    color: seashell;
+}
+@media (min-width:500px){
+body{
+    background-color: rgb(11, 56, 58);
+}
+}
+@media (max-width:499px){
+    body{
+        background-color: rgb(235, 239, 240);
+    }
+}
+.split {
+    background-color: lightgray;
+    height: 100%;
+    position: fixed;
+
+    
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+    text-align: center;
+    color: rgb(134, 37, 37);
+  }
+  table{
+    text-align: right;
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+      
+  }
