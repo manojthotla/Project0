@@ -1,0 +1,54 @@
+.grid{
+    background-color: slategrey;
+    display: grid;
+    padding:10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns:200px auto;
+}
+
+.grid-item{
+    background-color: white;
+    font-size:20px;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    border: 2px solid black;
+    background-color: thistle;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+
+
+
+#leftbox{
+    float:left;
+    width:50%;
+}
+
+#middlebox{
+    float: left;
+    width:2%
+}
+#rightbox{
+    float: right;
+    width:48%;
+    height: 100%;
+    
+    
+}
+
+body{
+    background-color: tomato;
+}
